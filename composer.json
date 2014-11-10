@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.4",
         "symfony/symfony": "~2.3",
-        "ongr/elasticsearch-bundle": ">=0.1"
+        "ongr/elasticsearch-bundle": "*"
     },
     "require-dev": {},
     "autoload": {
