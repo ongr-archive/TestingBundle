@@ -55,14 +55,14 @@ class Product implements DocumentInterface
     /**
      * @var UrlObject[]|\Iterator
      *
-     * @ES\Property(type="object", objectName="ONGRTestingBundle:UrlObject", name="url")
+     * @ES\Property(type="object", objectName="ONGRTestingBundle:UrlObject", multiple=true, name="url")
      */
     public $links;
 
     /**
      * @var ImagesNested[]|\Iterator
      *
-     * @ES\Property(type="nested", objectName="ONGRTestingBundle:ImagesNested", name="images")
+     * @ES\Property(type="nested", objectName="ONGRTestingBundle:ImagesNested", multiple=true, name="images")
      */
     public $images;
 }
