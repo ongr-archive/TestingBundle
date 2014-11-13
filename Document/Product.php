@@ -65,4 +65,11 @@ class Product implements DocumentInterface
      * @ES\Property(type="nested", objectName="ONGRTestingBundle:ImagesNested", name="images")
      */
     public $images;
+
+    /**
+     * @var Category[]|\Iterator
+     *
+     * @ES\Property(type="object", objectName="ONGRTestingBundle:Category", name="categories")
+     */
+    public $categories;
 }
