@@ -12,17 +12,14 @@
 namespace ONGR\TestingBundle\Document;
 
 use ONGR\ElasticsearchBundle\Annotation as ES;
-use ONGR\ElasticsearchBundle\Document\DocumentInterface;
-use ONGR\ElasticsearchBundle\Document\DocumentTrait;
 
 /**
  * Category document for testing.
  *
- * @ES\Document
+ * @ES\Object
  */
-class Category implements DocumentInterface
+class Category
 {
-    use DocumentTrait;
 
     public $hiddenField;
 }
