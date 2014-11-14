@@ -69,7 +69,7 @@ class Product implements DocumentInterface
     /**
      * @var Category[]|\Iterator
      *
-     * @ES\Property(type="object", objectName="ONGRTestingBundle:Category", name="categories")
+     * @ES\Property(type="object", objectName="ONGRTestingBundle:Category", multiple=true, name="categories")
      */
     public $categories;
 }
