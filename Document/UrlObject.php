@@ -35,7 +35,7 @@ class UrlObject
     public $urlKey;
 
     /**
-     * @var CdnObject[]|\Iterator
+     * @var CdnObject
      *
      * @ES\Property(name="cdn", type="object", objectName="ONGRTestingBundle:CdnObject")
      */
