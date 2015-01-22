@@ -1,4 +1,4 @@
-Testing Bundle
+DO NOT USE THIS BUNDLE
 ------------------
 
-Provides data fixtures and example ESB documents for functional tests.
+We found many logic faults using this bundle and already removed it from all components.
