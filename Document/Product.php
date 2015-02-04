@@ -39,6 +39,13 @@ class Product implements DocumentInterface
     public $description;
 
     /**
+     * @var string
+     *
+     * @ES\Property(type="string", name="long_description")
+     */
+    public $longDescription;
+
+    /**
      * @var float
      *
      * @ES\Property(type="float", name="price")
@@ -72,4 +79,18 @@ class Product implements DocumentInterface
      * @ES\Property(type="object", objectName="ONGRTestingBundle:Category", multiple=true, name="categories")
      */
     public $categories;
+
+    /**
+     * @var string
+     *
+     * @ES\Property(type="string", name="manufacturer")
+     */
+    public $manufacturer;
+
+    /**
+     * @var string
+     *
+     * @ES\Property(type="string", name="vendor")
+     */
+    public $vendor;
 }
